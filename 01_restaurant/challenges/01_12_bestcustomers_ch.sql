@@ -13,4 +13,3 @@ from orders o
 join Customers c on o.CustomerID=c.CustomerID
 group by o.CustomerID
 limit 15
-
